@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Syed Sabeeh Taqi</title>
+	<style type="text/css">
+
+		h1 {
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Leveraging Web Data Class 5 Lab</h1>
+	<br>
+	<h2>Web Development Resources</h2>
+	<ul>
+		<li><a href="https://www.w3schools.com/html/default.asp" target="_blank">W3 HTML Resources</a></li>
+		<li><a href="https://www.w3schools.com/css/default.asp" target="_blank">W3 CSS Resources</a></li>
+		<li><a href="https://www.w3schools.com/css/default.asp" target="_blank">W3 JavaScript Resources</a></li>
+	</ul>
+	<h2>Questions and Answers</h2>
+	<h4>Change the text of the title tag in the head section to your name.</h4>
+	<br>
+	<h4>Describe the three components of the HTML document (HTML, CSS, JavaScript).</h4>
+	<p><font color="red"> A starting tag 
+Body or the content 
+An ending tag
+</font></p>
+
+	<br>
+	<h4>Name and describe four distinct HTML tags.</h4>
+	<p><font color="red"><html>  This defines an HTML document
+<head>  it defines the head of the document. This is where the document starts
+<title>   It defines title for the document
+<body> It defines body of the document. It basically contains all the document.
+</font></p>
+
+	<br>
+	<h4>Identify an HTML tag that does not require an end tag.</h4>
+	<p><font color="red">This is some text!</font></p>
+Empty elements in html does not rquire end tag
+"<br>" is an example of this. It is used for line break.
+
+	<br>
+	<h4>Read this page on <a href="https://www.w3schools.com/css/css_syntax.asp" target="_blank">CSS Syntax</a> then name and describe element selectors, id selectors, and class selectors.</h4>
+	<p><font color="red"> Element selectors uses name of the element to select. For example if we have to select <p> element which is for paragraph we use 
+p {
+}
+We can put what we want between the curly brackets. For example 
+P {
+text-align: center;
+    color: red;
+}
+This will make the paragraph centrally aligned with red font.
+
+Id selector
+It is used to select one unique element as it uses id attribute of an element.
+Hash (#) character is used to do this. For example #para. Para is an element here.
+</font></p>
+
+	<br>
+	<h4>Change the color of the text in all '&lt;p&gt;' tags. Describe how you did it. Color must be clear and discernable from the white background.</h4>
+	<p>Your answer here</p>
+	<br>
+	<h4>Create an <a href="https://www.w3schools.com/tags/tag_button.asp" target="_blank">HTML button</a> between this tag and the '&lt;br&gt;' tag below. Add custom text to the button and <a href="https://www.w3schools.com/css/css3_buttons.asp" target="_blank">style the button</a>.</h4>
+	<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Buttons</h2>
+
+<button>Default Button</button>
+<a href="https://www.google.com/" class="button">Link Button</a>
+
+
+</body>
+</html>
+
+  <br>
+	
+
+	<script type="text/javascript">
+
+	</script>
+	
+</body>
+</html>
