@@ -54,9 +54,32 @@
 
 
 	<script type="text/javascript">
-		//
-		// code goes below this line
+	var i;
+function myNewFunction() {
+    
+		
+		
+	for(i = 0; i<100; i++){
+		document.write("Iteration # "+i)
+		
+		if (i % 3 == 0 && i % 5 == 0){
+		console.log('HelloWorld')}
+		else
+		if (i % 3 == 0){
+		console.log('Hello')}
+		else
+		if (i % 5 == 0){
+		console.log('World')}
+		else {console.log(i)    
+                    }
+		document.write('<br />')
+		
+}
+document.write("Loop Ended!!")
 
+};
+
+myNewFunction();
 	</script>
 </body>
 </html>
